@@ -1,6 +1,9 @@
 # Solar Guesser
 
+
 Solar Guesser ist ein Computer-Vision-Projekt zur Schaetzung der installierten PV-Leistung (kWp) auf Daechern anhand von Satellitenbildern.
+
+![SolarGuesserDemo](https://github.com/user-attachments/assets/773afcd2-cb94-4a82-82a0-25509342ee5e)
 
 Das Projekt kombiniert:
 - Geocoding und Abruf von Satellitenbildern (Mapbox API)
@@ -145,4 +148,7 @@ Solar_Guesser/
 
 ## Lizenz
 
-Aktuell keine explizite Lizenzdatei hinterlegt. Vor externer Wiederverwendung bitte Lizenz festlegen.
+Dieses Projekt nutzt Ultralytics YOLO (`ultralytics`) und Ultralytics-YOLO-Modelle.
+Daher wird das Repository unter der AGPL-3.0-Lizenz bereitgestellt.
+Details siehe `LICENSE`.
+
