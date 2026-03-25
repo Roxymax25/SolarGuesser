@@ -1,0 +1,17 @@
+# Solar Guesser - Dependencies
+# ML & Computer Vision
+ultralytics>=8.3.0          # YOLO World v2 support
+opencv-python>=4.9.0        # Image processing
+pillow>=10.0.0              # Image handling
+numpy>=1.24.0               # Numerical operations
+torch>=2.0.0                # PyTorch (YOLO dependency)
+
+# Web & API
+streamlit>=1.29.0           # Web UI
+requests>=2.31.0            # HTTP client
+
+# Geocoding
+geopy>=2.4.0                # Address to coordinates
+
+# Utilities
+python-dotenv>=1.0.0        # Environment variables

@@ -1,0 +1,64 @@
+# Environment
+.env
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# YOLO models (large files)
+models/*.pt
+*.pt
+*.onnx
+
+# Training/data artifacts (very large)
+datasets/
+runs/
+app/runs/
+YOLO26/
+
+# Runtime/cache outputs
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+app/response.txt
+
+# Streamlit
+.streamlit/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cached images
+cache/
